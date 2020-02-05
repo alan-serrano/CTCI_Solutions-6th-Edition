@@ -1,5 +1,5 @@
 /**
- * Double Linked list take it of:
+ * Double Linked list Class
  * @link https://github.com/rithmschool/javascript_computer_science_exercises/blob/solutions/doubly_linked_lists_exercise/doublyLinkedList.js
  */
 
