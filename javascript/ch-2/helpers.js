@@ -3,13 +3,13 @@
  * @link https://github.com/rithmschool/javascript_computer_science_exercises/blob/solutions/doubly_linked_lists_exercise/doublyLinkedList.js
  */
 
-export function Node(val) {
+function Node(val) {
     this.val = val;
     this.prev = null;
     this.next = null;
 }
 
-export function DoublyLinkedList(arr = []) {
+function DoublyLinkedList(arr = []) {
     this.head = null;
     this.tail = null;
     this.length = 0;
@@ -222,3 +222,6 @@ DoublyLinkedList.prototype.reverse = function () {
     }
     return this;
 }
+
+exports.Node = Node;
+exports.DoublyLinkedList = DoublyLinkedList;

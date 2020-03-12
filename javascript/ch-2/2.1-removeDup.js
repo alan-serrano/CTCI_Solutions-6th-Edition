@@ -1,9 +1,8 @@
-import * as helpers from './helpers.js';
-
+const {DoublyLinkedList} = require('./helpers');
 /**
  * Remove Dups! Write code to remove duplicates from an unsorted linked list.
  */ 
-const linkedList = new helpers.DoublyLinkedList;
+const linkedList = new DoublyLinkedList;
 linkedList.push(10).push(10).push(15).push(30).push(30).push(15);
 
 /**

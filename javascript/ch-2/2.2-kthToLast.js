@@ -1,8 +1,8 @@
-import * as helpers from './helpers.js';
+const {DoublyLinkedList} = require('./helpers');
 
 /* 2.2 Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.*/
 
-const linkedList = new helpers.DoublyLinkedList;
+const linkedList = new DoublyLinkedList();
 
 // Adding elementos to linked list
 linkedList.push(5).push(10).push(17).push(40);
